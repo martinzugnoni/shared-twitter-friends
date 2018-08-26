@@ -36,8 +36,10 @@ https://github.com/martinzugnoni/shared-twitter-friends/blob/master/app.py#L20-L
 
 ### 4) Run the app
 
-Once of the best things about Flask, is its simplicity for writing and running a web app.
+One of the best things about Flask, is its simplicity for writing and running a web app.
 
 All you need to do is running `python app.py` in your preferred terminal, and visit `http://localhost:8080/` in your browser.
+
+Make sure to have the libraries listed in `requirements.txt` installed in your local environment. If you don't, run `pip install -r requirements.txt`.
 
 That's all! 🙌
