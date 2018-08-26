@@ -42,4 +42,12 @@ All you need to do is running `python app.py` in your preferred terminal, and vi
 
 Make sure to have the libraries listed in `requirements.txt` installed in your local environment. If you don't, run `pip install -r requirements.txt`.
 
+## Twitter API rate limits note
+
+It's important to mention that, if you use accounts with a big amount of followers (>75.000), the app might take a long time to load.
+
+The reason is Twitter API's rate limits. I'm using the `GetFollowerIDs` API method, which returns pages of 5000 account ids at max. As [explained here](https://python-twitter.readthedocs.io/en/latest/rate_limits.html), Twitter allows 15 API requests per 15 minutes. Meaning that, if all your listed accounts sum up to 75000 followers (15 requests, 5000 each), you will hit the API rate limit and the app will sleep for 15 minutes until the next request.
+
+In most of the cases this wont't happen. But, if you use big influencers account you can easily reach >75000 followers.
+
 That's all! 🙌
