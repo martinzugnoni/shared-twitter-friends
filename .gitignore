@@ -71,7 +71,6 @@ node_modules/
 
 # Static files
 gulp_dist/
-static/
 
 # gulp minified images folder
 reactApp/assets/images/
