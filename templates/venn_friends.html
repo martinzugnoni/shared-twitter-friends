@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Shared Twitter Friends | rmotr.com</title>
+  <style>
+    body {
+        font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-size: 14px;
+    }
+  </style>
+  </head>
+  <body>
+    <h2>Shared Twitter friends</h2>
+    <p>Intersections in the VENN diagram represent shared followers betweet Twitter accounts.</p>
+    <i>NOTE: Small intersections will not be displayed in the diagram to keep a cleaner visualization.</i>
+    <div id="venn"></div>
+  </body>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="http://benfred.github.io/venn.js/venn.js"></script>
+  <script>
+    // required format
+    // var sets = [ {sets: ['A'], size: 12},
+    //              {sets: ['B'], size: 12},
+    //              {sets: ['A','B'], size: 2} ];
+    var sets = {{ data | safe }}
+  </script>
+  <script src="static/scripts.js"></script>
+</html>
