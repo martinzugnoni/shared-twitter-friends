@@ -1,0 +1,40 @@
+body {
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    margin: 40px;
+}
+
+#venn {
+  width: 600px;
+  height: 350px;
+  margin: 30px auto;
+  padding: 15px;
+  box-shadow: 0px 2px 25px rgba(0,0,0,0.15);
+}
+
+hr {
+  border-color: #AAA;
+  opacity: 0.1;
+  margin: 50px 30px 20px;
+}
+
+.footer {
+  color: #777;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.footer:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.rmotr-logo {
+  width: 42px;
+  height: 42px;
+  display: block;
+  margin: 5px auto;
+}
