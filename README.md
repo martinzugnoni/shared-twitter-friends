@@ -4,7 +4,7 @@ Have you ever asked yourself "how many followers I share with my friends?". Quic
 
 ## Preview
 
-![image](https://user-images.githubusercontent.com/1155573/44632299-804eef00-a94e-11e8-9724-21e8627f779a.png)
+![image](https://user-images.githubusercontent.com/1155573/44923793-b1993780-ad1f-11e8-8297-0a7cc17a8e4f.png)
 
 ## Want to try it youself?
 
