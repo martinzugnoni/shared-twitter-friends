@@ -5,8 +5,7 @@ var chart = venn.VennDiagram()
 var div = d3.select("#venn")
 div.datum(sets).call(chart);
 
-var tooltip = d3.select("body").append("div")
-    .attr("class", "venntooltip");
+var tooltip = d3.select(".venntooltip");
 
 div.selectAll("path")
     .style("stroke-opacity", 0)
